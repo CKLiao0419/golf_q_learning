@@ -79,7 +79,7 @@ def demo(agent):
     
     running = True
     while running:
-        # 處理輸入 (可以按 X 關掉視窗)
+        # 處理輸入
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
